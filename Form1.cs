@@ -29,7 +29,7 @@ namespace Part_3_Chapter_Problem
         private void btnSubmit_Click(object sender, EventArgs e)
         {
             name = txtName.Text;
-            height = Convert.ToDouble(txtHeight.Text);
+            height = Math.Round(Convert.ToDouble(txtHeight.Text),2);
             trkbarAge.Visible = false;
             lblHeight.Visible = false;
             lblName.Visible = false;
