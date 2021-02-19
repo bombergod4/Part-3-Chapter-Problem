@@ -57,6 +57,7 @@
             // 
             this.lblAge.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.lblAge.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblAge.ForeColor = System.Drawing.Color.Blue;
             this.lblAge.Location = new System.Drawing.Point(312, 75);
             this.lblAge.Name = "lblAge";
             this.lblAge.Size = new System.Drawing.Size(150, 33);
@@ -66,6 +67,8 @@
             // 
             // lblName
             // 
+            this.lblName.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblName.ForeColor = System.Drawing.Color.Blue;
             this.lblName.Location = new System.Drawing.Point(12, 141);
             this.lblName.Name = "lblName";
             this.lblName.Size = new System.Drawing.Size(146, 40);
@@ -75,29 +78,34 @@
             // 
             // txtName
             // 
+            this.txtName.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtName.Location = new System.Drawing.Point(199, 152);
             this.txtName.Name = "txtName";
-            this.txtName.Size = new System.Drawing.Size(143, 20);
+            this.txtName.Size = new System.Drawing.Size(143, 23);
             this.txtName.TabIndex = 3;
             // 
             // lblHeight
             // 
+            this.lblHeight.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblHeight.ForeColor = System.Drawing.Color.Blue;
             this.lblHeight.Location = new System.Drawing.Point(372, 141);
             this.lblHeight.Name = "lblHeight";
             this.lblHeight.Size = new System.Drawing.Size(146, 40);
             this.lblHeight.TabIndex = 4;
-            this.lblHeight.Text = "Please enter your height in meters";
+            this.lblHeight.Text = "Please enter your height in meters (2 decimal spots)";
             this.lblHeight.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // txtHeight
             // 
+            this.txtHeight.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtHeight.Location = new System.Drawing.Point(524, 152);
             this.txtHeight.Name = "txtHeight";
-            this.txtHeight.Size = new System.Drawing.Size(143, 20);
+            this.txtHeight.Size = new System.Drawing.Size(143, 23);
             this.txtHeight.TabIndex = 5;
             // 
             // btnSubmit
             // 
+            this.btnSubmit.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSubmit.Location = new System.Drawing.Point(330, 235);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(103, 48);
@@ -109,9 +117,11 @@
             // lblGreetings
             // 
             this.lblGreetings.AutoSize = true;
+            this.lblGreetings.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblGreetings.ForeColor = System.Drawing.Color.Blue;
             this.lblGreetings.Location = new System.Drawing.Point(327, 108);
             this.lblGreetings.Name = "lblGreetings";
-            this.lblGreetings.Size = new System.Drawing.Size(35, 13);
+            this.lblGreetings.Size = new System.Drawing.Size(36, 15);
             this.lblGreetings.TabIndex = 7;
             this.lblGreetings.Text = "label1";
             this.lblGreetings.Visible = false;
@@ -119,9 +129,11 @@
             // lblOutput
             // 
             this.lblOutput.AutoSize = true;
+            this.lblOutput.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOutput.ForeColor = System.Drawing.Color.Blue;
             this.lblOutput.Location = new System.Drawing.Point(327, 136);
             this.lblOutput.Name = "lblOutput";
-            this.lblOutput.Size = new System.Drawing.Size(35, 13);
+            this.lblOutput.Size = new System.Drawing.Size(38, 15);
             this.lblOutput.TabIndex = 8;
             this.lblOutput.Text = "label2";
             this.lblOutput.Visible = false;
@@ -130,6 +142,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(800, 295);
             this.Controls.Add(this.lblOutput);
             this.Controls.Add(this.lblGreetings);
